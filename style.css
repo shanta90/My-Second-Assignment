@@ -1,0 +1,38 @@
+/* ================UNIVERSAL SELECTOR=============== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
+/* =======================NAVBAR SECTION DESIGN========== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #412567;
+    padding: 20px 130px;
+}
+.nav-menu ul  {
+    display: flex;
+   gap: 33px;  
+}
+.nav-menu ul li {
+    list-style-type: none;   
+}
+.nav-menu li a{
+    text-decoration: none;
+     font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.primary-btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 12px 16px;
+    border-radius: 10000px;
+    background: linear-gradient(to top right, #F7E93F 0%,  #FB09B4 51%, #9100F8 100%); 
+}

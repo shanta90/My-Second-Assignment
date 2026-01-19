@@ -36,3 +36,33 @@
     border-radius: 10000px;
     background: linear-gradient(to top right, #F7E93F 0%,  #FB09B4 51%, #9100F8 100%); 
 }
+
+
+.hamburg {
+    display: none;
+}
+
+
+
+
+/* =============MOBILE RESPONSIVE DESIGN============ */
+@media screen and (max-width:576px) {
+    .nav-menu {
+        display:none
+    }
+    .primary-btn {
+        display: none;
+    }
+    .hamburg {
+        display: block;
+        padding: 16px 20px 16px 0px;
+       
+       
+        
+    }
+    .navbar{
+        padding:16px 24px 16px 20px;
+
+    }
+   
+}

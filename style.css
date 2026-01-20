@@ -109,6 +109,16 @@ body {
 gap: 15px;
 
 }
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-30deg);
+    }
+    
+}
+
 
 .spotify {
     font-size: 16px;
@@ -127,6 +137,11 @@ gap: 15px;
     border: 1px solid #00FF88;
     border-radius: 10000px;
     padding: 12px 20px;
+    transition: transform 0.5s ease-in-out;
+}
+.second-btn:hover {
+  transform: scale(1) rotate(50deg) translateX(20px) translateY(20px);
+  background-color: #533C72;
 }
 .badge {
     font-size: 18px;
@@ -140,6 +155,7 @@ gap: 15px;
     position: absolute;
     top: 4%;
     right: 13%;
+    animation: rotate 1.3s ease-in-out 0.5s infinite;
 }
 /* ============PODCAST RELATED DESIGN========== */
 .podcast{
@@ -226,6 +242,22 @@ gap: 15px;
 .card-4 { grid-area:card-4; }
 .card-5 { grid-area:card-5; }
 
+@keyframes move {
+0%{
+transform: rotate(0deg)
+}
+50%{
+transform:rotate(-10deg)
+}
+100%{
+transform:rotate(-20deg)
+}
+}
+
+.card-5 { 
+        animation: move 1.5s ease-in 0.8s infinite;
+}
+
 .techwave-content h1 {
     font-size: 22px;
     font-weight: bold;
@@ -272,7 +304,12 @@ gap: 15px;
     height: 420px;
     width: 300px;
     background-color: #250D44;
+    transition: transform 0.4s ease-in-out;
    
+}
+.description-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 3px 8px 10px rgba(128, 128, 128, 0.609);
 }
 .description-card h2 {
     font-size: 20px;

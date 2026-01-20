@@ -6,6 +6,7 @@
 }
 body {
     width: 100vw;
+    background-color: #1A0B2E;
 }
 .inter-font {
   font-family: "Inter", sans-serif;
@@ -34,8 +35,8 @@ body {
     color: #FFFFFF;
 }
 .nav-menu li a:hover {
-    background-color: coral;
-    color: black;
+    color: coral;
+  
 }
 .primary-btn {
     font-size: 16px;
@@ -66,7 +67,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding: 150px 500px; */
     padding-bottom: 0px;
 }
 .hero {
@@ -78,8 +78,24 @@ body {
     position: relative;
     
    
-}.hero-img .circle {
-    width:318px;  
+}
+@keyframes circlerotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg)
+    }
+    
+}
+.hero-img .circle {
+    width:318px; 
+    animation-name: circlerotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+    animation-delay: 0s;
+    animation-timing-function: linear;
+
 }     
 .micro {
     position: absolute;
@@ -114,8 +130,11 @@ gap: 15px;
     0%{
         transform: scale(0.7);
     }
-    100% {
+    50% {
         transform: scaleZ(1.2);
+    }
+    100%{
+        transform: scale(0.7);
     }
     
     
@@ -161,6 +180,9 @@ gap: 15px;
     box-shadow: 1px 1px 5px #00ff88d2;
     
 }
+.badge:hover {
+    color: #9100F8;
+}
 
 /* ============PODCAST RELATED DESIGN========== */
 .podcast{
@@ -168,7 +190,7 @@ gap: 15px;
     text-align:center;
     margin: 0 auto;
     padding: 0px 200px 40px 200px;
-    border-bottom: 0.5px solid #ffffff0d;
+    /* border-bottom: 0.5px solid #ffffff0d; */
     width: 100vw;
 }
  
@@ -184,7 +206,13 @@ gap: 15px;
     color: #FFFFFF;
     font-weight: lighter;
 }
+.line {
+width: 80vw;
+height: 0.5px;
+background-color: #ffffff0d;
+margin: 0 auto;
 
+}
 .podcast-card {
     display: flex;
     justify-content: space-evenly;
@@ -250,7 +278,7 @@ gap: 15px;
 .card-4 { grid-area:card-4; }
 .card-5 { grid-area:card-5; }
 
-@keyframes move {
+/* @keyframes move {
 0%{
 transform: rotate(0deg)
 }
@@ -260,10 +288,15 @@ transform:rotate(10deg)
 100%{
 transform:rotate(20deg)
 }
-}
+} */
 
-.card-5 { 
+/* .card-5 { 
         animation: move 1.5s ease-in 0.8s infinite;
+} */
+.card-1:hover {
+    box-shadow: 2px 2px 5px #533c728a;
+    transition: 0.5s;
+
 }
 
 .techwave-content h1 {
@@ -413,7 +446,11 @@ width: 100vw;
 height: 290px;
 background-repeat: no-repeat;
 position: relative;
-
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding-bottom: 30px;
 
 }
 .footer-icon {
@@ -447,6 +484,14 @@ text-align: center;
 .footer-img img {
     height: 40px;
     width: 250px; 
+}
+.linee {
+    display: block;
+    margin: 0 auto;
+    background-color:#ffffff0d;
+    width: 70vw;
+    height: 0.5px;
+    margin-bottom: 12px;
 }
 /* =============MOBILE RESPONSIVE DESIGN============ */
 @media screen and (max-width:576px) {
@@ -668,4 +713,23 @@ transform:rotate(8deg)
  .footer-img img {
     display: none;
  }
+ .copyright  {
+    display: none;
+ }
+ .linee {
+    display: none;
+ }
 }
+@media screen and (min-width:525px) and (max-width:460px) {
+       .hero-img .circle {
+    width:202px; 
+   
+}     .hero-img  {
+        position:absolute;
+        top:-3%;
+      left: 18%;
+       
+     }
+
+}
+    

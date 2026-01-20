@@ -230,8 +230,57 @@ gap: 15px;
     font-size: 14px;
     font-weight: lighter;
     color: #FFFFFF;
-    /* padding-top: 5px; */
+  
     
+}
+
+/* ==========FEATURED EPISODES RELATED DESIGN============= */
+
+.featured-episodes {
+    background-color: #1A0B2E;
+    padding: 100px ;
+}
+.featured-episodes h1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 30px;
+    
+
+}
+.video-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+  
+}
+.description-card {
+    border: 1px solid #250D44;
+    border-radius: 8px;
+    height: 420px;
+    width: 300px;
+    background-color: #250D44;
+   
+}
+.description-card h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 8px;
+}
+.description-card p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #FFFFFF;
+    padding: 8px;
+    
+}
+ .description-card .watch-icon{
+    font-size: 14px;
+    font-weight: bold;
+    color: #00FF88;
 }
 
 

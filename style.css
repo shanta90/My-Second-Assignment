@@ -209,7 +209,7 @@ gap: 15px;
 /* ===============WHY CHOOSE TECWAVE RELATED DESIGN========== */
 .techwave {
     background-color: #230E3D;
-    padding: 80px 220px;
+    padding: 80px 200px;
     padding-left: 247px;
   
     
@@ -584,4 +584,36 @@ transform:rotate(3deg)
 transform:rotate(8deg)
 }
 }
+/* =========FEATURED EPISODES RESPONSIVE========== */
+.video-card {
+    flex-direction: column;
+    
+}
+.description-card{
+  border-radius: 12px;
+ 
+}
+.description-card{
+    width:85vw;
+}
+.featured-episodes h1 {
+    font-size: 34px;
+    padding: 15px;
+}
+.description-card h2 {
+    font-size: 24px;
+}
+.description-card p {
+    font-size:17px;
+    
+   
+}
+ .description-card .watch-icon {
+    font-size: 16px;
+ 
+}
+ .description-card iframe {
+    width: 445px;
+    height: 250px;
+ }
 }

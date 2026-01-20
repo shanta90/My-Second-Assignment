@@ -102,7 +102,7 @@ body {
 }
 .hero-content p {
     font-size: 10px;
-    color: #ffffff90;
+    color: #ffffff82;
     padding-bottom: 15px;
 }
 .hero-btn {
@@ -167,11 +167,12 @@ gap: 15px;
     background-color: #1A0B2E;
     text-align:center;
     margin: 0 auto;
-    padding-bottom: 40px;
-    padding-top: 0px;
-    border-bottom: 1px solid #ffffff2f;
+    padding: 0px 200px 40px 200px;
+    border-bottom: 0.5px solid #ffffff0d;
     width: 100vw;
 }
+
+  
 .podcast h1 {
     font-size: 48px;
     font-weight: bold;
@@ -181,7 +182,9 @@ gap: 15px;
 .podcast p {
     font-size: 14px;
     color: #FFFFFF;
+    font-weight: lighter;
 }
+
 .podcast-card {
     display: flex;
     justify-content: space-evenly;
@@ -199,8 +202,8 @@ gap: 15px;
 
 .card p {
     font-size: 14px;
-    color: #FFFFFF;
-    font-weight: lighter;
+     color: #ffffff98;
+    font-weight: 500;
 }
 
 /* ===============WHY CHOOSE TECWAVE RELATED DESIGN========== */
@@ -504,5 +507,31 @@ text-align: center;
     justify-content: center;
     align-items: center;
 }
+/* =========ABOUT THE PODCAST RESPONSIVE========== */
+.podcast{
+   padding: 30px 60px 40px 60px;
+    
+}
+
+  
+.podcast h1 {
+    font-size: 42px;
+    padding-bottom: 20px;
+
+}
+.podcast p {
+    font-size: 16px;
+  
+}
+.podcast-card {
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+   row-gap: 40px;
+   column-gap: 20px;
+   text-align: center;
+  
+
+}
+
 
 }

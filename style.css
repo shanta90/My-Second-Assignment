@@ -727,9 +727,15 @@ transform:rotate(8deg)
 }     .hero-img  {
       
         top:-3%;
-      left: 25%;
+      left: 26%;
        
      }
-
-}
+     .footer {
+        
+        background-size: cover;
+     }
+.techwave h1 {
+       font-size: 30px;
     
+}
+}

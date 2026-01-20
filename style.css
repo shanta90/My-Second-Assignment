@@ -720,14 +720,14 @@ transform:rotate(8deg)
     display: none;
  }
 }
-@media screen and (min-width:525px) and (max-width:460px) {
+@media screen and (max-width:500px) {
        .hero-img .circle {
-    width:202px; 
+    width:205px; 
    
 }     .hero-img  {
-        position:absolute;
+      
         top:-3%;
-      left: 18%;
+      left: 25%;
        
      }
 

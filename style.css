@@ -86,6 +86,7 @@ body {
     top: 28%;
     right: 40%;
     width: 90px;
+    animation: rotate 2s ease-in-out 1s infinite;
 }
 .hero-content {
     text-align: center;
@@ -110,12 +111,14 @@ gap: 15px;
 
 }
 @keyframes rotate {
-    from{
-        transform: rotate(0deg);
+    0%{
+        transform: scale(0.6);
     }
-    to {
-        transform: rotate(-30deg);
+    100% {
+        transform: scaleZ(1.1);
     }
+    
+    
     
 }
 
@@ -155,8 +158,9 @@ gap: 15px;
     position: absolute;
     top: 4%;
     right: 13%;
-    animation: rotate 1.3s ease-in-out 0.5s infinite;
+    
 }
+
 /* ============PODCAST RELATED DESIGN========== */
 .podcast{
     background-color: #1A0B2E;
@@ -247,10 +251,10 @@ gap: 15px;
 transform: rotate(0deg)
 }
 50%{
-transform:rotate(-10deg)
+transform:rotate(10deg)
 }
 100%{
-transform:rotate(-20deg)
+transform:rotate(20deg)
 }
 }
 

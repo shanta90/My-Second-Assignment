@@ -474,8 +474,7 @@ padding-bottom: 30px;
 
 .footer-content {
     position: absolute;
-    top: 85px;
-    left: 450px;
+    margin-bottom: 55px;
 
 }
 .footer-img {
@@ -730,10 +729,7 @@ transform:rotate(8deg)
       left: 26%;
        
      }
-     .footer {
-        
-        background-size: cover;
-     }
+ 
 .techwave h1 {
        font-size: 30px;
     

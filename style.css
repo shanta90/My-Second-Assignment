@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    width: 100vw;
+}
 .inter-font {
   font-family: "Inter", sans-serif;
 }
@@ -15,6 +18,7 @@
     background-color: #1A0B2E;
     padding: 20px 130px;
     border-bottom: 1px solid #412567;
+    width: 100vw;
 }
 .nav-menu ul  {
     display: flex;
@@ -145,6 +149,7 @@ gap: 15px;
     padding-bottom: 40px;
     padding-top: 0px;
     border-bottom: 1px solid #ffffff2f;
+    width: 100vw;
 }
 .podcast h1 {
     font-size: 48px;
@@ -180,17 +185,20 @@ gap: 15px;
 /* ===============WHY CHOOSE TECWAVE RELATED DESIGN========== */
 .techwave {
     background-color: #230E3D;
-    text-align: center;
-    padding: 80px 200px;
-    padding-left: 240px;
+    padding: 80px 220px;
+    padding-left: 247px;
+  
     
 }
 .techwave h1 {
     
-    font-size: 48px;
+    font-size: 46px;
     font-weight: bold;
     color: #FFFFFF;
     padding-bottom: 30px;
+    text-align: center;
+    margin: 0 auto;
+
    
 }
 .card-1, .card-2, .card-3, .card-4, .card-5 {
@@ -238,7 +246,8 @@ gap: 15px;
 
 .featured-episodes {
     background-color: #1A0B2E;
-    padding: 100px ;
+    padding: 85px ;
+ 
 }
 .featured-episodes h1 {
     font-size: 45px;
@@ -246,6 +255,7 @@ gap: 15px;
     color: #FFFFFF;
     text-align: center;
     padding-bottom: 30px;
+ 
     
 
 }
@@ -282,8 +292,117 @@ gap: 15px;
     font-weight: bold;
     color: #00FF88;
 }
+/* ===========MEET THE HOST SECTION RELATED DESIGN========== */
+.host-section {
+    background-color: #1A0B2E;
+    padding-bottom: 110px;
+}
+.host-section h1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+.host {
+    display: flex;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+    margin-left: 200px;
+     background-color: rgba(53, 17, 101, 0.4);
+     
+}
+.host-img img {
+   padding: 20px;
+
+}
+.host-content {
+    display: flex;
+    flex-direction: column;
+}
+.host-content h1 {
+    font-size: 31px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 5px;
+    /* padding-top: 0px; */
+    border-radius: 15px;
+    text-align: start;
 
 
+}
+.host-content p {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #FFFFFF;
+    padding: 10px;
+
+}
+.host-icon {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    gap: 10px;
+}
+.icon {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #533C72;
+    text-align: center;
+    border-radius: 100%;
+    padding:8px 3px 2px 3px;
+}
+.icon img {
+    height: 20px;
+    width: 20px;
+}
+/* =============FOOTER SECTION RELATED DESIGN============== */
+.footer {
+ background-image: url("./assets/footer-bg.png");
+ background-position: center;
+ background-size: cover;
+width: 100vw;
+height: 290px;
+background-repeat: no-repeat;
+position: relative;
+
+
+}
+.footer-icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding-bottom: 30px;
+    padding-top: 22px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff77;
+}
+.footer p {
+    font-size: 16px;
+    font-weight: lighter;
+    color: #ffffffd7;
+    text-align: center;
+}
+
+.footer-content {
+    position: absolute;
+    top: 85px;
+    left: 450px;
+
+}
+.footer-img {
+text-align: center;
+}
+.footer-img img {
+    height: 40px;
+    width: 250px; 
+}
 /* =============MOBILE RESPONSIVE DESIGN============ */
 @media screen and (max-width:576px) {
     .nav-menu {

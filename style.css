@@ -735,3 +735,9 @@ transform:rotate(8deg)
     
 }
 }
+
+
+
+body{
+overflow-x: hidden;
+}

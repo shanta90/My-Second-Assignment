@@ -207,7 +207,7 @@ gap: 15px;
     font-weight: lighter;
 }
 .line {
-width: 80vw;
+width: 80%;
 height: 0.5px;
 background-color: #ffffff0d;
 margin: 0 auto;
@@ -488,7 +488,7 @@ text-align: center;
     display: block;
     margin: 0 auto;
     background-color:#ffffff0d;
-    width: 70vw;
+    width: 70%;
     height: 0.5px;
     margin-bottom: 12px;
 }
